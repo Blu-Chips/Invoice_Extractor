@@ -225,7 +225,7 @@ const InvoiceExtractor = () => {
         const formData = new FormData();
         formData.append('file', file);
 
-        const response = await fetch('https://invoice-extractor-cso1.onrender.com/api/ocr', {
+        const response = await fetch('https://your-app.onrender.com/api/ocr', {
           method: 'POST',
           body: formData,
         });
